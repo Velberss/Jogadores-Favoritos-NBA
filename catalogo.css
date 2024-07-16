@@ -9,8 +9,7 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
-    display: flexbox;
-    
+    display: flexbox;   
 }
 header{ 
     display: inline-block;
@@ -39,4 +38,8 @@ header{
     Justify-content:space-evenly;
     border-radius: 15px;
     border: 10px solid transparent;
+}
+.jogadores:hover{
+    transform:scale(1.1);
+    transition-duration:0.3s ;
 }
