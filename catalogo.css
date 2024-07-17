@@ -39,7 +39,15 @@ header{
     border-radius: 15px;
     border: 10px solid transparent;
 }
-.jogadores:hover{
+.container:hover{
     transform:scale(1.1);
-    transition-duration:0.3s ;
+    transition-duration:0.5s ;
+}
+.image:hover{
+    transform:scale(1.1);
+    transition-duration:0.5s ;
+}
+.nbalogo:hover{
+    transform:scale(1.1);
+    transition-duration:0.5s ;
 }
