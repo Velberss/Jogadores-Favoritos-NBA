@@ -16,7 +16,7 @@ header{
     padding: 50px;
     border-bottom: 4px solid #000000;
     font-weight: 800;
-    width:118%;
+    width:107%;
     display: flexbox;
     Justify-content:space-evenly;
 }
@@ -30,10 +30,9 @@ header{
 .page-subtitle{
     margin-top: 10px;
     margin-bottom: 10px;
-    font-weight: 500;
 }
 .jogadores{
-    width: 100%;
+    width: 110%;
     display: flex;
     Justify-content:space-evenly;
     border-radius: 15px;
@@ -47,7 +46,22 @@ header{
     transform:scale(1.1);
     transition-duration:0.5s ;
 }
+.nbaspurs{
+    padding-right: 200px;
+}
+.nbalogo{
+    padding-left: 80px;
+}
 .nbalogo:hover{
+    transform:scale(1.1);
+    transition-duration:0.5s ;
+}
+.nbaspurs:hover{
+    transform:scale(1.1);
+    transition-duration:0.5s ;
+}
+
+h2:hover{
     transform:scale(1.1);
     transition-duration:0.5s ;
 }
